@@ -1,111 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Alisa Zhurova</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alisa Zhurova</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo1.png" alt="logo">
+  <header>
+    <div class="header container">
+      <div class="logo">
+        <a href="#"><img src="assets/svg/logo.svg" alt="logo"></a>
+      </div>
+      <div class="menu">
+        <input type="checkbox" id="btn" class="menu__button">
+        <label class="btn-menu" for="btn">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </label>
+        <nav>
+          <ul>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#skills">Technical skills</a></li>
+            <li><a href="#work">Projects</a></li> 
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Experience</a></li>
+            <li class="social">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div class="social-item">
+                      <i class="fa fa-vk"></i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="social-item">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="social-item">
+                      <i class="fa fa-paper-plane"></i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="social-item">
+                      <i class="fa fa-instagram"></i>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div class="social-item">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="social">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">
+                <div class="social-item">
+                  <i class="fa fa-vk"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="social-item">
+                  <i class="fa fa-phone"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="social-item">
+                  <i class="fa fa-paper-plane"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="social-item">
+                  <i class="fa fa-instagram"></i>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="social-item">
+                  <i class="fa fa-envelope"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    
+  </header>
+  <main>
+    <section class="profile container">
+      <div class="profile__union middle">
+        <div class="profile__desc">
+          <div class="desc">
+            <h1>Alisa Zhurova <br> Front-End Developer</h1>
+            <p>Now I work as a leading software engineer at JSC "Vitebskdrev", and also develop websites using HTML, CSS(SCSS), JS/JQuery, WordPress.</p>
+          </div>
+          <div class="telegram">
+            <a href="https://t.me/alisa_zhurova" target="_blank">
+                <img src="assets/svg/telegram.svg" alt="telegram">
+                <p>Write to me in Telegram!</p>
+            </a>
+          </div>
         </div>
-        <div class="menu">
-            <nav>
-                <ul>
-                <li><a href="#skills">Technical skills</a></li>
-                <li><a href="#work">Work Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#aboutMe">About me</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="social">
-            <nav>
-                <ul>
-                <li><a href="https://vk.com/alisa777339"><img src="img/Socials/vk.png" alt="vk"></a></li>
-                <li><a href="tel:+375336784779"><img src="img/Socials/phone.png" alt="phone"></a></li>
-                <li><a href="https://t.me/alisa_zhurova"><img src="img/Socials/telegram.png" alt="telegram"></a></li>
-                <li><a href="https://www.instagram.com/alisia_nisen/"><img src="img/Socials/instagram1.png" alt="instagram"></a></li>
-                <li><a href="mailto:alisa.fedulova2013@gmail.com"><img src="img/Socials/email.png" alt="email"></a></li>
-                </ul>
-            </nav>
-        </div>
-</header>
-<main>
-    <section class="main container">
-        <div class="main__description">
-          <h1>Hello, I'm Alisa Zhurova</h1>
-          <p>At the moment, one of my main goals is to learn foreign languages I also want to become a good web-developer in the future. I think one of my greatest strength is as a problem solver.</p>
-        </div>
+      </div>
     </section>
-    <section id="skills" class="container">
-        <h2>Technical skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
-          <li>WordPress</li>
-          <li>SQL</li>
-        </ul>
-    </section>
-    <section id="work" class="container">
-        <h2>Work Experience</h2>
-        <h3>Technician</h3>
-        <p><i>Vitebsk State Polytechnic College of the educational institution "Vitebsk State Technological University"(2016-2018)</i></p>
-        <ul>
-          <li>installing the software;</li>
-          <li>work in Microsoft Office (Word, Excel, PowerPoint);</li>
-          <li>sending messages by e-mail;</li>
-          <li>making copies of documents and systematization of documentation;</li>
-          <li>monitoring the condition of the equipment used and timely informing the management about the need for its repair or replacement.</li>
-        </ul>
-        <h3>Leading software engineer</h3>
-        <p><i>JSC "Vitebskdrev" (2018 - Present)</i></p>
-        <ul>
-          <li>installing the software;</li>
-          <li>development of instructions for working with programs, preparation of the necessary technical documentation;</li>
-          <li>implementation of maintenance of implemented programs and software tools;</li>
-          <li>advising users on the software;</li>
-          <li>receiving, processing, storing and printing information received by e-mail, as well as sending messages to interested parties;</li>
-          <li>solve user problems related to the correct operation of software products and tools in a timely manner;</li>
-          <li>development and administration of enterprise websites.</li>
-          <li>develop your own theme for the site on WordPress, and setting Yandex  metrics and Google search console.</li>
-        </ul>
-    </section>
-    <section id="education" class="container">
-        <h2>Education</h2>
+    <section class="skills middle">
+      <h2>Technical skills</h2>
+      <div class="skills__items">
         <ul>
           <li>
-            <p><i>Vitebsk State Polytechnic College of the educational institution "Vitebsk State Technological University" (2012-2016)</i></p>
-            <p><i><b>Specialization:</b> Information technology software</i></p>
+            <img src="assets/svg/skills/html5.svg" alt="html5">
+            <p>HTML 5</p>
           </li>
           <li>
-            <p><i>Vitebsk State University named after P.M. Masherova (2016-2020)</i></p>
-            <p><i><b>Specialization:</b> Information technology software</i></p>
+            <img src="assets/svg/skills/css.svg" alt="css">
+            <p>CSS3,  SASS/SCSS</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/js.svg" alt="js">
+            <p>JavaScript Basics</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/jquery.svg" alt="jquery">
+            <p>Jquery</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/wordPress.svg" alt="wordPress">
+            <p>WordPress</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/git.svg" alt="git">
+            <p>Git, GitHub</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/figma.svg" alt="figma">
+            <p>Figma</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/ps.svg" alt="ps">
+            <p>Adobe Photoshop</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/php.svg" alt="php">
+            <p>PHP</p>
+          </li>
+          <li>
+            <img src="assets/svg/skills/ai.svg" alt="ai">
+            <p>Adobe Illustrator</p>
           </li>
         </ul>
+      </div>
     </section>
-    <section id="aboutMe" class="container">
-        <h2>About me</h2>
-        <p>Hardworking,self-motivated and determined,learning agility, able to prioritize, adapt well to new situations and patient. My Level English is A2.</p>
-        <p>My developed website:</p>
-            <ul>
-              <li><a href="https://vitebskdrev.com/">vitebskdrev.com</a></li>
-              <li><a href="https://musikschule-saks.de/">Misikschule Saks</a></li>
-              <li><a href="https://hi360v.com/">Ivan Tsyrkunovich photography</a></li>
-            </ul>
+    <section class="projects middle">
+      <h2>All Projects</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="https://hi360v.com/" target="_blank">
+              <img src="assets/img/projects/hi360v.jpg" alt="360 PHOTOGRAPHY">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://zhurova2022.github.io/impressionizm/" target="_blank">
+              <img src="assets/img/projects/impressionizm.jpg" alt="Impressionizm">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://vitebskdrev.com/" target="_blank">
+              <img src="assets/img/projects/vitebskdrev.jpg" alt="JSC Vitebskdrev">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="https://musikschule-saks.de/" target="_blank">
+              <img src="assets/img/projects/musikschule-saks.jpg" alt="Musikschule Saks">
+            </a>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
-</main>
-<footer>
-    <div class="rs container">
-        <a href="https://app.rs.school/"><img src="img/logo-rsschool3.png" alt="rsschool"></a>
-    </div>
-    <div class="github container">
-        <a href="https://github.com/Alisa202023">Alisa202023</a>
-    </div>
-</footer>
+    <section class="experience">
+      <h2>Experience of work</h2>
+    </section>
+    
+  </main>
+  <footer></footer>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
 </body>
 </html>
