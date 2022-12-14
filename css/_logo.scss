@@ -1,0 +1,23 @@
+.logo{
+  max-width: 250px;
+  width: 100%;
+  a{
+    display: block;
+    max-width: 250px;
+    img{
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 925px) and (max-width: 1160px) {
+  .logo{
+    max-width: 200px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 399px) {
+  .logo{
+    max-width: 200px;
+    width: 100%;
+  }
+}
