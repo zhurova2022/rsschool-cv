@@ -8,6 +8,28 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30
     }
   },
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  }
+});
+
+var swiper = new Swiper(".Reviews", {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true

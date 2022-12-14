@@ -2,8 +2,8 @@
   max-width: 260px;
   width: 100%;
   ul{
-    display: flex;
-    justify-content: space-between;
+    @extend %flex;
+    @extend %BetweenContent;
     li{
       a{
         .social-item{
@@ -13,21 +13,21 @@
           text-align: center;
           line-height: 45px;
           font-size: 24px;
-          border: 1px solid rgb(25, 68, 68);
+          border: 1px solid $darkGreen;
           &:hover {
             cursor: pointer;
           }
           i{
             font-size: 26px;
-            color:rgb(25, 68, 68);
+            color:$darkGreen;
           }
         }
       }
       &:hover{
         .social-item{
-          border: 1px solid rgb(36, 148, 139);
+          border: 1px solid $Green;
           i{
-            color: rgb(36, 148, 139);
+            color: $Green;
           }
         }
       }
@@ -88,17 +88,17 @@ header{
                 li{
                   a{
                     .social-item{
-                      border: 1px solid #fff;
+                      border: 1px solid $white;
                       i{
-                        color: #fff;
+                        color: $white;
                       }
                     }
                   }
                   &:hover{
                     .social-item{
-                      border: 1px solid rgb(140 209 203);
+                      border: 1px solid $lightGreen;
                       i{
-                        color: rgb(140 209 203);
+                        color: $lightGreen;
                       }
                     }
                   }

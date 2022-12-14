@@ -1,18 +1,18 @@
 .profile{
-  background: url("../assets/img/background1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right 30% top;
   height: 890px;
-  color:#1D4444;
-  &__desc{
-    background: rgba(254, 254, 254, 0.7);
-    border-radius: 37px;
-    max-width: 784px;
-    width: 100%;
+  background: url("../assets/img/background1.jpg");
+  background-position: right 30% top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $darkGreen;
+  &-desc{
+    float: left;
     padding: 0 96px;
     margin-top: 200px;
-    float: left;
+    max-width: 784px;
+    width: 100%;
+    background: $lightgrey;
+    border-radius: 37px;
     .desc{
       max-width: 592px;
       width: 100%;
@@ -20,56 +20,48 @@
         margin-top: 48px;
       }
       p{
-        font-size: 24px;
         margin-top: 35px;
+        @extend %text;        
       }
     }
   }
-  h1{
-    font-family: "Saira";
-    font-size: 42px;
-    line-height: 66px;
-    letter-spacing: 0.145em;
-    text-transform: uppercase;
-  }
 }
-
 .telegram{
   display: block;
   margin-top: 55px;
   padding-bottom: 58px;
   a{
-      display: flex;
-      max-width: 270px;
-      width: 100%;
-      height: 40px;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(180deg, rgba(23, 141, 195, 0.5) 0%, rgba(2, 2, 4, 0.5) 100%);
-      border: 2px solid #039BE5;
-      border-radius: 30px;
-      img{
-          margin-left: -5px;
-          width: 60px;
-      }
-      p{
-        padding-top: 0;
-          margin-top: 0!important;
-          color: #fff;
-          margin: 0 5px;
-          letter-spacing: 0.05em;
-      }
-      &:hover{
-          color: #fff;
-          background: linear-gradient(180deg, rgba(73, 179, 228, 0.5) 0%, rgba(12, 40, 53, 0.5) 100%);
-      }
+    display: flex;
+    max-width: 270px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, $darkBlue 0%, $black 100%);
+    border: 2px solid $blue;
+    border-radius: 30px;
+    img{
+      margin-left: -5px;
+      width: 60px;
+    }
+    p{
+      padding-top: 0;
+      margin-top: 0!important;
+      color: $white;
+      margin: 0 5px;
+      letter-spacing: 0.05em;
+    }
+    &:hover{
+      color: $white;
+      background: linear-gradient(180deg, $lightBlue 0%, $black 100%);
+    }
   }
 }
 
 @media screen and (max-width: 1380px){
   .profile{
     height: 700px;
-    &__desc{
+    &-desc{
       margin-top: 150px;
       max-width: 592px;
       padding: 0 26px;
@@ -91,7 +83,7 @@
 
 @media screen and (max-width: 1024px){
   .profile{
-    &__desc{
+    &-desc{
       margin-top: 270px;
     }
   }
@@ -99,27 +91,18 @@
 
 @media screen and (max-width: 630px){
   .profile{
-    &__desc{
+    &-desc{
       .desc{
         p{
           font-size: 20px;
         }
       }
     }
-    h1{
-      font-size: 32px;
-      line-height: 46px;
-    }
   }
 }
 @media screen and (max-width: 506px){
   .profile{
-    h1{
-      font-size: 26px;
-      line-height: 36px;
-      text-align: center;
-    }
-    &__desc{
+    &-desc{
       .desc{
         p{
           text-align: center;
@@ -130,15 +113,6 @@
   .telegram{
     a{
       margin: 0 auto;
-    }
-  }
-}
-
-@media screen and (max-width: 422px){
-  .profile{
-    h1{
-      font-size: 22px;
-      line-height: 32px;
     }
   }
 }
@@ -153,7 +127,7 @@
 }
 @media screen and (max-width: 320px){
   .profile{
-    &__desc{
+    &-desc{
       margin-top: 240px;
     }
   }

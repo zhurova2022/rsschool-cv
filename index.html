@@ -18,7 +18,7 @@
         <a href="#"><img src="assets/svg/logo.svg" alt="logo"></a>
       </div>
       <div class="menu">
-        <input type="checkbox" id="btn" class="menu__button">
+        <input type="checkbox" id="btn" class="menu-button">
         <label class="btn-menu" for="btn">
           <span class="first"></span>
           <span class="second"></span>
@@ -119,8 +119,8 @@
   </header>
   <main>
     <section class="profile container">
-      <div class="profile__union middle">
-        <div class="profile__desc">
+      <div class="profile-union middle">
+        <div class="profile-desc">
           <div class="desc">
             <h1>Alisa Zhurova <br> Front-End Developer</h1>
             <p>Now I work as a leading software engineer at JSC "Vitebskdrev", and also develop websites using HTML, CSS(SCSS), JS/JQuery, WordPress.</p>
@@ -136,7 +136,7 @@
     </section>
     <section class="skills middle">
       <h2>Technical skills</h2>
-      <div class="skills__items">
+      <div class="skills-items">
         <ul>
           <li>
             <img src="assets/svg/skills/html5.svg" alt="html5">
@@ -211,12 +211,123 @@
         <div class="swiper-pagination"></div>
       </div>
     </section>
-    <section class="experience">
+    <section class="experience middle">
       <h2>Experience of work</h2>
+      <div class="experience-items container">
+        <div class="experience-item bottom">
+          <div class="img right"><img src="assets/img/work/colllege.jpg" alt="colllege"></div>
+          <div class="desc">
+            <h3><a href="https://vgke.by/">Laboratory technician</a></h3>
+            <p>Vitebsk State Polytechnic College (2016-2018)</p>
+            <ul>
+              <li>installing the software;</li>
+              <li>work in Microsoft Office (Word, Excel, PowerPoint);</li>
+              <li>sending messages by e-mail;</li>
+              <li>making copies of documents and systematization of documents;</li>
+              <li>monitoring the condition of the equipment used and timely informing the management about the need for its repair or replacement.</li>
+              <li>acceptance of applications and documents of applicants in the admissions committee</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-item">
+          <div class="desc">
+            <h3><a href="https://vitebskdrev.com/">Leading software engineer</a></h3>
+            <p>JSC "Vitebskdrev" (2018 - Present)</p>
+            <ul>
+              <li>installing the software;</li>
+              <li>development of instructions for working with programs, preparation of the necessary technical documentation;</li>
+              <li>implementation of maintenance of implemented programs and software tools;</li>
+              <li>advising users on software and work in 1C ERP, 1C Accounting;</li>
+              <li>receiving, processing, storing and printing information received by e-mail, as well as sending messages to interested parties;</li>
+              <li>solve user problems related to the correct operation of software products and tools in a timely manner;</li>
+              <li>during my work, I have created a corporate website and administer it.</li>
+              <li>also I developed your own theme for the site JSC Vitebskdrev on WordPress, and installed settings Yandex metrics and Google search console.</li>
+            </ul>
+          </div>
+          <div class="img left"><img src="assets/img/work/vitebskdrev.jpg" alt="vitebskdrev"></div>          
+        </div>
+      </div>
+    </section>
+    <section class="reviews middle">
+      <h2>Reviews</h2>
+      <div class="swiper Reviews">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img"><img src="assets/svg/quite.svg" alt="quite"></div>
+            <div class="feedback"><p>Quickly. Qualitatively. Inexpensive. There were no time limits, so periodically the work went faster than we wanted. Several design options were presented. After choosing the optimal one, the design was completed to my requirements pretty quickly. After finishing the work, full  instruction was presented on how to edit everything or add it yourself to the website. Technical support remained and patient answers to stupid questions) 10/10 and my recommendation.</p></div>
+            <div class="author"><p>Ivan Tsyrkunovich</p></div>
+            <div class="org"><p>360 Photography</p></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img"><img src="assets/svg/quite.svg" alt="quite"></div>
+            <div class="feedback"><p>When we turned to Alice with a request to create a new website for our company, we didn't even realize how lucky we were! Communication was easy, the work was done quickly and on time, and all our wishes were heard and taken into account. The design of the website turned out to be an incredibly exciting activity - and first of all, thanks to her creative approach, flair and ability to suggest and implement the right and interesting idea at the right time! Alice is a Professional with a capital letter and a specialist whom I would be happy to recommend to anyone who dreams of creating a great and effective website!</p></div>
+            <div class="author"><p>Alexandra Saks</p></div>
+            <div class="org"><p>Musikschule Saks</p></div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="education middle">
+      <h2>Education</h2>
+      <div class="education-items">
+        <div class="education-item">
+          <a href="https://vgke.by/">
+            <div class="img"><img src="assets/img/education/college.jpg" alt="college"></div>
+            <div class="desc">
+              <h3>Vitebsk State Polytechnic College <br>(2012-2016)</h3>
+              <p>Specialization: Information technology software</p>
+            </div>
+          </a>
+        </div>
+        <div class="education-item">
+          <a href="https://fmiit.vsu.by/">
+            <div class="img"><img src="assets/img/education/university.jpg" alt="university"></div>
+            <div class="desc">
+              <h3>Vitebsk State University named after P.M. Masherova (2016-2020)</h3>
+              <p>Specialization: Information technology software</p>
+            </div>
+          </a>
+        </div>
+        <div class="education-item top">
+          <a href="https://leon-center.by/">
+            <div class="img"><img src="assets/img/education/leon.jpg" alt="leon"></div>
+            <div class="desc">
+              <h3>Leon <br>(2020)</h3>
+              <p>Learning English at A1-A2 level.</p>
+              <p>Now my English level is A2.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="code middle">
+      <h2>Code</h2>
+      <p class="about">Task</p>
+      <p>After a hard quarter in the office you decide to get some rest on a vacation. So you will book a flight for you and your girlfriend and try to leave all the mess behind you. You will need a rental car in order for you to get around in your vacation. The manager of the car rental makes you some good offers.</p>
+      <p>Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total. Write a code that gives out the total amount for different days(d).</p>
+      <pre>
+        <code>
+  function rentalCarCost(d){
+    let arenda = 40; 
+    if (d >= 3 && d < 7){return arenda * d - 20;}
+    if (d >= 7) {return arenda * d - 50;}
+    else return arenda * d;
+  }          
+        </code>
+      </pre>
     </section>
     
   </main>
-  <footer></footer>
+  <footer>
+    <div class="footer container">
+      <div class="footer-logo"><a href="https://rs.school/js/"><img src="assets/svg/logo-rsschool.svg" alt="logo-rsschool"></a></div>
+      <div class="footer-year"><p>2022</p></div>
+      <div class="footer-github"><a href="https://github.com/zhurova2022/">zhurova2022</a></div>
+    </div>
+  </footer>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/index.js"></script>
 
