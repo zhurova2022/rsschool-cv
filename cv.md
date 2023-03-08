@@ -13,10 +13,10 @@ HTML, CSS, SASS/SCSS, JS, WordPress, Git, GitHub, Figma, Adobe Photoshop
 
 ## **All Projects**
 
-[JSC Vitebskdrev](https://vitebskdrev.com/)
-[Misikschule Saks](https://musikschule-saks.de/)
-[Ivan Tsyrkunovish](https://hi360v.com/)
-[Impressionizm](https://zhurova2022.github.io/impressionizm/)
+* [JSC Vitebskdrev](https://vitebskdrev.com/)
+* [Misikschule Saks](https://musikschule-saks.de/)
+* [Ivan Tsyrkunovish](https://hi360v.com/)
+* [Impressionizm](https://zhurova2022.github.io/impressionizm/)
 
 ## **Work Experience**
 
