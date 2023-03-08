@@ -30,7 +30,7 @@
   display: block;
   margin-top: 55px;
   padding-bottom: 58px;
-  a{
+  &-link{
     display: flex;
     max-width: 270px;
     width: 100%;
@@ -111,14 +111,14 @@
     }
   }
   .telegram{
-    a{
+    &-link{
       margin: 0 auto;
     }
   }
 }
 @media screen and (max-width: 348px){
   .telegram{
-    a{
+    &-link{
       p{
         text-align: center;
       }
