@@ -208,7 +208,7 @@ main {
   }
 }
 .link-hide {
-  display: none;
+  visibility: hidden;
 }
 
 @font-face {
