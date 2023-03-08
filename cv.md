@@ -44,16 +44,15 @@ HTML, CSS, SASS/SCSS, JS, WordPress, Git, GitHub, Figma, Adobe Photoshop
 ## **Education**
 
 1. *Vitebsk State Polytechnic College of the educational institution "Vitebsk State Technological University" (2012-2016)*
-* **Specialization:** Information technology software
+**Specialization:** Information technology software
 
 2. *Vitebsk State University named after P.M. Masherova (2016-2020)*
-* **Specialization:** Information technology software
+**Specialization:** Information technology software
 
 3. *LEON (2020)*
-* **Specialization:** Learning English at A1-A2 level. 
+**Specialization:** Learning English at A1-A2 level. 
 
 4. *JS/FE PRE-SCHOOL 2022Q4 (JAVASCRIPT)*
-* **Specialization:** Learning English at A1-A2 level.
 
 ## **Code**
 
