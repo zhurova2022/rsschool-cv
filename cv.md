@@ -4,11 +4,12 @@
 * **phone:** +375(33)6784779 
 * **email:** alisa.fedulova2013@gmail.com
 
-At the moment, one of my main goals is to learn foreign languages I also want to become a good web-developer in the future. 
-I think one of my greatest strength is as a problem solver.
+## **About me**
+
+Now I work as a leading software engineer at JSC "Vitebskdrev", and also develop websites using HTML, CSS(SCSS), JS/JQuery, WordPress. My Level English is A2.
 
 ## **Technical skills:**
-HTML, CSS, JS, WordPress, SQL
+HTML, CSS, SASS/SCSS, JS, WordPress, Git, GitHub, Figma, Adobe Photoshop
 
 ## **Work Experience**
 
@@ -41,6 +42,6 @@ HTML, CSS, JS, WordPress, SQL
 2. *Vitebsk State University named after P.M. Masherova (2016-2020)*
 * **Specialization:** Information technology software
 
-## **About me**
+3. *LEON (2020)*
+* **Specialization:** Learning English at A1-A2 level. 
 
-hardworking,self-motivated and determined,learning agility, able to prioritize, adapt well to new situations and patient. My Level English is A2.
