@@ -36,7 +36,8 @@ body {
     outline: -webkit-focus-ring-color auto 0px;
   }
   ul {
-    padding-inline-start: 0;
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
     list-style-type: none;
   }
   h1,
@@ -44,8 +45,10 @@ body {
   h3,
   p,
   ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    -webkit-margin-after: 0;
+            margin-block-end: 0;
   }
 }
 .container{
@@ -101,7 +104,9 @@ main{
    
   }
 }
-
+.link-hide{
+  display: none;
+}
 @import "fonts";
 @import "logo";
 @import "social";
